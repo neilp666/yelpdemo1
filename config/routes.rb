@@ -1,4 +1,5 @@
 Yelpdemo1::Application.routes.draw do
+  devise_for :users
   resources :restaurants
 
   get "pages/about"
